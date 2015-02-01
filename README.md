@@ -4,10 +4,10 @@ __*jems*__ are [JSON](http://json.org/) and [JavaScript Object Literals](https:/
 
 __*jems enable*__
 
-* [Data & Functionality Encapsulation](https://en.wikipedia.org/wiki/Encapsulation_(object-oriented_programming))
+* [Data and Functionality Encapsulation](https://en.wikipedia.org/wiki/Encapsulation_(object-oriented_programming))
 * [Cross-Domain Data Exchange](http://www.slideshare.net/iskitz/using-jsonxd-for-crossdomain-json-exchange)
 * [Event-driven Programming](https://en.wikipedia.org/wiki/Event-driven_programming)
 * and [Unobtrusive JavaScript](http://en.wikipedia.org/wiki/Unobtrusive_JavaScript)
 
 This repository hosts jem pattern documentation, its sample code, and the following trusted jems
-  * [jsonXD: json-extended Dataflow](http://code.jsonxd.net/)
+  * [jsonXD: json-extended dataflow](http://code.jsonxd.net/)

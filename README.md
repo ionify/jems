@@ -1,6 +1,6 @@
-# _jems: [json](http://json.org/)-Enhanced [Modules](http://en.wikipedia.org/wiki/Modular_programming)_
+# _jems: [json](http://json.org/)-enhanced [modules](http://en.wikipedia.org/wiki/Modular_programming)_
 
-__*jems*__ are [JSON](http://json.org/) and [JavaScript Object Literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Values,_variables,_and_literals#Object_literals) that use the __*jem*__ pattern to immediately self-invoke. The __*jem*__ pattern is compatible with all current and legacy [ECMAScript _(aka JavaScript)_](http://en.wikipedia.org/wiki/ECMAScript) [Specifications](http://www.ecma-international.org/publications/standards/Ecma-262.htm) and [Engines](http://en.wikipedia.org/wiki/JavaScript_engine).
+__*jems*__ are [JSON](http://json.org/) and [JavaScript Object Literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Values,_variables,_and_literals#Object_literals) that implement the __*jem*__ pattern for immediate-invocation, observation, and identification. The jem pattern is compatible with all [ECMAScript](http://en.wikipedia.org/wiki/ECMAScript) [Specifications](http://www.ecma-international.org/publications/standards/Ecma-262.htm) and [Engines](http://en.wikipedia.org/wiki/JavaScript_engine). All jems are likewise compatible unless modified otherwise.
 
 __*jems enable*__
 
@@ -9,5 +9,5 @@ __*jems enable*__
 * [Event-driven Programming](https://en.wikipedia.org/wiki/Event-driven_programming)
 * and [Unobtrusive JavaScript](http://en.wikipedia.org/wiki/Unobtrusive_JavaScript)
 
-This __*jems*__ repository hosts the official __*jem Pattern Documentation*__, its sample code and these trusted jems
+This repository hosts jem pattern documentation, its sample code, and the following trusted jems
   * [jsonXD: json-extended Dataflow](http://code.jsonxd.net/)

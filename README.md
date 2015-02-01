@@ -1,6 +1,6 @@
 # _jems: [json](http://json.org/)-enhanced [modules](http://en.wikipedia.org/wiki/Modular_programming)_
 
-__*jems*__ are [JSON](http://json.org/) and [JavaScript Object Literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Values,_variables,_and_literals#Object_literals) that implement the __*jem*__ pattern for immediate-invocation, observation, and identification. The jem pattern is compatible with all [ECMAScript](http://en.wikipedia.org/wiki/ECMAScript) [Specifications](http://www.ecma-international.org/publications/standards/Ecma-262.htm) and [Engines](http://en.wikipedia.org/wiki/JavaScript_engine). All jems are likewise compatible unless modified otherwise.
+__*jems*__ are [JSON](http://json.org/) and [JavaScript Object Literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Values,_variables,_and_literals#Object_literals) that implement the __*jem*__ pattern for immediate-invocation, observation, and identification. The jem pattern is compatible with all [ECMAScript](http://en.wikipedia.org/wiki/ECMAScript) [Specifications](http://www.ecma-international.org/publications/standards/Ecma-262.htm) and [Engines](http://en.wikipedia.org/wiki/JavaScript_engine). All jems are likewise compatible unless otherwise modified.
 
 __*jems enable*__
 

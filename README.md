@@ -2,9 +2,9 @@
 
 #### _about_
 
-__*jems*__ are [JSON](http://json.org/) and [JavaScript Object Literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Values,_variables,_and_literals#Object_literals) that implement the [json-embedded module](https://github.com/jsonXD/jems/wiki/jem:-json–embedded-module) pattern for immediate-invocation and discovery. They can represent and be many things, including data and functionality.
+**jems** are [modules](http://tfd.com/module) of data or functionality [embedded](http://tfd.com/embedded) within  immediately-invoked [JSON](http://json.org/) structures.
 
-This respository hosts a collection of jems, and the [jem pattern's documentation](https://github.com/jsonXD/jems/wiki/jem:-json–embedded-module) and sample code.
+This respository hosts a collection of jems, and the [jem pattern's documentation](https://github.com/jsonXD/jems/wiki/jem) and sample code.
 
 #### _*jems*_
 

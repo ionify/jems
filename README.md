@@ -8,4 +8,4 @@ This respository hosts a collection of jems, and the [jem pattern's documentatio
 
 #### _*jems*_
 
-* [jsonXD: json-extended dataflow](http://code.jsonxd.net/)
+* [jsonXD: json cross-domain](http://code.jsonxd.net/)

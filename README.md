@@ -8,4 +8,5 @@ This respository hosts a collection of jems, and the [jem pattern's documentatio
 
 #### _*jems*_
 
+* [jsonXD Animated Logo](https://github.com/jsonXD/jems/tree/master/animated.logo)
 * [jsonXD: json cross-domain](http://code.jsonxd.net/)

@@ -1,14 +1,25 @@
 @charset "UTF-8";
 
+html, body
+{ width   : 100%
+; margin  : 0
+; padding : 0
+}
+
 body
-{ height          : 100%
-; width           : 100%
-; margin          : 0
-; padding         : 50% 0
+{ padding-top     : 50%
 ; background-color: #000
 ; color           : #eee
 ; font-family     : courier
 ; font-size       : 32px
 ; font-weight     : bold
+; height          : 100%
 ; text-align      : center
+; white-space     : nowrap 
+}
+
+@media (min-width:1281px)     /* hi-res laptops and desktops */
+{ body
+  { padding-top: 25%
+  }
 }

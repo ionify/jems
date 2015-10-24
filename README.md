@@ -2,7 +2,7 @@
 
 #### _about_
 
-**jems** are [modules](http://tfd.com/module) of data or functionality [embedded](http://tfd.com/embedded) within  immediately-invoked [JSON](http://json.org/)-like structures.
+**jems** are [modules](http://tfd.com/module) of data or functionality [embedded](http://tfd.com/embedded) within  immediately-[invoked](http://www.tfd.com/activate) [JSON](http://json.org/)-like structures.
 
 * [Introduction](https://github.com/jsonXD/jems/blob/master/about/jems.md)
 * [more...](https://github.com/jsonXD/jems/blob/master/about/).

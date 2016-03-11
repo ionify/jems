@@ -12,7 +12,7 @@
 This respository hosts a collection of jems
 
 * [jsonXD Animated Logo](https://rawgit.com/jsonXD/jems/master/animated.logo/)
-* [Kana Game](https://rawgit.com/jsonXD/jems/master/kana.game/)
+* [わかった: Wakatta: a Japanese language game](https://rawgit.com/jsonXD/jems/master/kana.game/)
 * [jsonXD: json cross-domain](http://code.jsonxd.net/)
 
 ### copyright + licensing

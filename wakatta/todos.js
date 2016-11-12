@@ -6,13 +6,12 @@
     , of: "わかった"
     , is: "ToDos for わかった, a Japanese language game"
     , by: "Michael Lee, iskitz.net, @iskitz"
-    , at: "2016.11.09-08...01.23"
+    , at: "2016.11.12-08...01.23-07"
     , in: "san-jose.california.usa.earth"
     },
 
   todos:
-    [ "rename kana.game folder to wakatta"
-    , "simplify yes + no interaction"
+    [ "simplify yes + no interaction"
     , "enable pairing hiragana, katakana, + romaji"
     , "add learn mode that only shows right answers"
     , "auto speed up or down per user's success speed"
@@ -83,7 +82,8 @@
     ], //+.todos
 
   done:
-    [ "Swipe left slows display, right quickens it"
+    [ "rename kana.game folder to wakatta"
+    , "Swipe left slows display, right quickens it"
     , "Manages css behavior from +view"
     , "Made +view, +game, + +kana.romaji own scripts"
     , "Gets alphabets via +kana not +game.make()"

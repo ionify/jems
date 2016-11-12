@@ -1,23 +1,18 @@
-# jems: [json](http://json.org/)-embedded [modules](http://en.wikipedia.org/wiki/Modular_programming)
+# jems
 
-### about
+**jems: json-embedded modules**, are data embedded within
+[**ionified**](https://github.com/ionify/about/blob/public/ion.md)
+[json](http://json.org/). [Learn more](https://github.com/ionify/jems/blob/public/about/jems.md)
+about them + play with a few:
 
-**jems** are [modules](http://tfd.com/module) of data or functionality [embedded](http://tfd.com/embedded) within  immediately-[invoked](http://www.tfd.com/activate) [JSON](http://json.org/)-like structures.
++ [**['~ . ~']&nbsp;&nbsp;&nbsp;&nbsp;:** animated ion emoji](https://rawgit.com/ionify/jems/public/animated.logo/)
++ [**わかった: wakatta**: a japanese language-skills game](https://rawgit.com/ionify/jems/public/wakatta/)
++ [**なまえ&nbsp;&nbsp;&nbsp;&nbsp;: namae**: &nbsp;a japanese name generator](https://rawgit.com/ionify/jems/public/namae/)
 
-* [Introduction](https://github.com/ionify/jems/blob/public/about/jems.md)
-* [more...](https://github.com/ionify/jems/blob/public/about/)
+**copyright + licensing**
 
-### jems
++ **jems** [documentation](about/) is (c) 2007-2016 [Michael Lee](http://iskitz.com) + licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/) [![about.jems](https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png "Creative Commons License")](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-This respository hosts a collection of jems
 
-* [ionify Animated Logo](https://rawgit.com/ionify/jems/public/animated.logo/)
-* [わかった: Wakatta: a Japanese language game](https://rawgit.com/ionify/jems/public/kana.game/)
-* [ionify: json cross-domain](http://code.jsonxd.net/)
-
-### copyright + licensing
-
-* [about.jems](about/) is (c) 2007-2016 [Michael Lee](http://iskitz.com) and licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/) [![about.jems](https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png "Creative Commons License")](http://creativecommons.org/licenses/by-nc-sa/4.0/)
-
-* jems hosted here and at http://jems.jsonxd.net are either individually licensed or licensed under a
++ **jems** hosted here + at http://jems.ionify.net are either individually licensed or licensed under a
 [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/) [![about.jems](https://i.creativecommons.org/l/by-sa/4.0/80x15.png "Creative Commons License")](http://creativecommons.org/licenses/by-sa/4.0/)

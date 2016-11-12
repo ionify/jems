@@ -1,5 +1,18 @@
+;
+
 +
-{ please:
+{ re:
+    { id: "jeni.declare.play@ionify"
+    , is: "An exploration of natural language programming"
+    , by: "mike.lee@ionify"
+    , at: "2016.11.11-08...2015.07.28-07"
+    , in: "san-jose.california.usa.earth"
+    },
+
+  please:
+
+      ['ö . ö']+
+
       [ "say hi"
       , "ask for my name"
       , "say hi with my name"
@@ -8,33 +21,30 @@
       ],
 
 
-  'say hi':
-      {   say: "Hi!"
-      },
+  "say hi":
+      {say: "Hi!"},
 
 
-  'ask for my name' :{
-          ask: { name: "What's your name?" }
-      },
+  "ask for my name":
+      {ask: {name: "What's your name?"}},
 
 
-  'say hi with my name' :{
-          say: "Hi {name}! Nice to meet you!"
-      },
+  "say hi with my name":
+      {say: "Hi {name}! Nice to meet you!"},
 
 
-  'ask if I can code' :{
-          vow: { code: "Can you code?" }
-      },
+  "ask if I can code":
+      {vow: {code: "Can you code?"}},
 
 
-  'reply about my answer':
+  "reply about my answer":
       { reply:
-          { yes   : "Great! Let's go!",
-            no    : "No problem! I can teach you :-)",
-            maybe : "Ok. Let's try :-)"
+          { yes   : "Great! Let's go!"
+          , no    : "No problem! I can teach you :-)"
+          , maybe : "Ok. Let's try :-)"
           }
       }
 
 }//+please
+
 ;

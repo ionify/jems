@@ -7,16 +7,15 @@
     , by: "mike.lee@ionify"
     , at: "2016.11.13-08...06"
     , in: "san-jose.ca.usa.earth"
-    },
-/*
+    }, /*
+
   do:
     [ {get:"view"}
     , {get:"...", in:"kana", for:"namae", then:"makeNames"}
-    ],
-*/
+    ], */
+
   get:
     ["kana.js", "view.js"],
-
   on:
     ["kana"],
  
@@ -31,25 +30,20 @@
  
   spot:
     function onSpot (ion)            // ion: +{spot: [0, 1]}
-      { var spot    = ion.spot
-          , alpha   = spot[0]
-          , len     = spot[1]
-          , namae   = onSpot.namae
-          , which   = alpha % namae.romaji.length
-          , roma    = namae.romaji   [which]
-          , kata    = namae.katakana [which]
-          , hira    = namae.hiragana [which]
+      { var spot  = ion.spot || [0,1]
+          , alpha = spot[0]
+          , size  = spot[1]
+          , namae = onSpot.namae
+          , which = alpha % namae.romaji.length
+          , roma  = namae.romaji   [which]
+          , kata  = namae.katakana [which]
+          , hira  = namae.hiragana [which]
           ; namae.spot = spot
           ;
 
-        // td: generate names by alpha-length based on spot
+        //td: generate names by alpha-length based on spot
       },
 
-  do:
-    [ {get:"view"}
-    , {get:"kana", then:"makeNames"}
-    ],
- 
   makeNames:
     function makeNames ()
       { var my   = makeNames.namae

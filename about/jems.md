@@ -10,35 +10,8 @@ within immediately-[invoked](http://www.tfd.com/activate) [JSON](http://json.org
 `+`, `-`, or `~` character
 
 ```javascript
-;  ~{}  +{}  -{}   +{ "say":"Hello World!" }    // 4 jems as prefixed JSON Objects
-;  ~[]  +[]  -[]   +[    "Hello World!"    ]    // 4 jems as prefixed JSON Arrays
-;
-```
-
-or similarly prefixed
-[Object](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-object-initializer) or
-[Array](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-array-initializer)
-literals
-
-```javascript
-;
-
-+
-{ message: "Hello World!",                      // A "+" prefixed Object Literal jem
-
-  valueOf:
-      function say () {
-          console.log (this.message);           // that displays Hello World!
-      }
-}
-
--
-[ function say () {                             // A "-" prefixed Array Literal jem
-      console.log ("Hello World!");
-  }
-]
-
-;
++{ "say":"hi!" };  // 1 jem as a prefixed JSON Object Literal
++[    "hi!"    ];  // 1 jem as a prefixed JSON Array  Literal
 ```
 
 ## How do they work?

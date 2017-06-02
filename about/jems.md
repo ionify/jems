@@ -1,42 +1,72 @@
-## What are jems?
+# jems
 
-**jems**, **j**son–**e**mbedded **m**odule**s**, is an [acronym](http://www.tfd.com/acronym) that
-describes [modules](http://tfd.com/module) of data or functionality [embedded](http://tfd.com/embedded)
-within immediately-[invoked](http://www.tfd.com/activate) [JSON](http://json.org/)-like structures.
+**json–expressed modules**, are modules of data or functionality expressed as [JSON](http://json.org/) via [**implicit object notation**](https://github.com/ionify/ionify/blob/public/info/ion.md).
 
-## How do they look?
+## look
 
-**jems** look like [JSON](http://json.org/), prefixed with a leading
-`+`, `-`, or `~` character
+**jems** look like JSON prefixed with a `+`, `-`, or `~` character
 
 ```javascript
-+{ "say":"hi!" };  // 1 jem as a prefixed JSON Object Literal
-+[    "hi!"    ];  // 1 jem as a prefixed JSON Array  Literal
+;
+~ {"one":"jem"}  // ~ -prefixed JSON Object Literal
++ {"jem":"too"}  // + -prefixed JSON Object Literal
+- ["third jem"]  // - -prefixed JSON Array  Literal
+;
 ```
 
-## How do they work?
+## act
 
-In [JavaScript](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-overview) environments,
-**jems** are interpreted and immediately evaluated as
+[JavaScript](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-overview) runtimes interpret & evaluate **jems** as
 [unary expressions](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-unary-operators)
 composed of a [+](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-unary-plus-operator),
 [-](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-unary-minus-operator), or
-[~ unary operator](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-bitwise-not-operator), and
+[~ unary operator](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-bitwise-not-operator) &
 an [object](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-object-initializer)
 or [array](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-array-initializer) literal
 [operand](http://www.tfd.com/operand).
 
-During their evaluation, each jem's `+`, `-`, or `~` unary operator
-[attempts to convert its object or array operand to a number](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-toprimitive).
-During that conversion, the object or array's `valueOf()` method is automatically invoked.
+During **jem** evaluation, its `+`, `-`, or `~` unary operator
+[attempts to convert its object or array operand to a number](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-toprimitive). During that conversion, an attempt is made to call the object or array's `valueOf()` method. Since 
+**jems** are JSON, they don't define a `valueOf()` method. This causes JavaScript runtimes to traverse the **jem**'s [prototype chain](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-objects) in search of one. That search begins & ends at `Object.prototype` & `Array.prototype` because
 
-This immediate evaluation and automatic method invocation is why **jems** are said to be _immediately-invoked_.
++ **jems** are JSON
++ JSON are object & array literals
++ & object & array literals' prototypes are `Object.prototype` & `Array.prototype`.
+
+By default, both `Object.prototype.valueOf()` & `Array.prototype.valueOf()` are defined, so each **jem's** `+`, `-`, or `~` unary operator calls it to obtain a [primitive value](https://en.m.wikipedia.org/wiki/Primitive_value) that's then converted to a number.
+
+Defining custom `Object.prototype.valueOf()` & `Array.prototype.valueOf()` methods enables using JavaScript's [implicit type conversion](https://en.m.wikipedia.org/wiki/Type_conversion) behavior to observe & interface with all **jems** without needing an identifier, magical 🤓
+
+```javascript
+;
+Object.prototype.valueOf
+  = function onObject ()
+      { this.jem == "some data" // true on 1st jem!
+      ; this.jem == "more data" // true on 2nd jem!
+      ; this.any == "json data" // true on 3rd jem!
+      }
+
+~{"jem":"some data"}  // 1st jem
++{"jem":"more data"}  // 2nd jem
+-{"any":"json data"}  // 3rd jem
+;
+```
 
 
-## Where can I use them?
+## usage
 
-**jems** work everywhere JavaScript lives and can be used in all
-[web browsers](https://en.wikipedia.org/wiki/Web_browser), web views, and
-[JavaScript runtimes](http://en.wikipedia.org/wiki/JavaScript_engine) implementing the
-[current ECMAScript Specification](http://www.ecma-international.org/publications/standards/Ecma-262.htm),
-or [any previous version](http://www.ecma-international.org/publications/standards/Ecma-262-arch.htm) since [1999](http://www.ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-262,%203rd%20edition,%20December%201999.pdf).
+**jems** work everywhere JavaScript lives & can be used in all
+[web browsers](https://en.wikipedia.org/wiki/Web_browser), web views &
+[JavaScript runtimes](http://en.wikipedia.org/wiki/JavaScript_engine) implementing [any version](http://www.ecma-international.org/publications/standards/Ecma-262-arch.htm) of the
+[ECMAScript Specification](http://www.ecma-international.org/publications/standards/Ecma-262.htm) since [1999](http://www.ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-262,%203rd%20edition,%20December%201999.pdf).
+
+**jems** can be used for
+
++ automatic & decoupled JSON observation
++ event-driven programming
++ & as domain-specific languages to name a few
+
+Their full potential is up to you 😉
+
+To get started, try [**ionify**](http://code.ionify.net/), **implicit object notation interpreted for you**, an API that simplifies doing many of the things **jems** make possible.
+

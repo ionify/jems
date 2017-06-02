@@ -53,7 +53,7 @@ Object.prototype.valueOf
 ```
 
 
-## usage
+## work
 
 **jems** work everywhere JavaScript lives & can be used in all
 [web browsers](https://en.wikipedia.org/wiki/Web_browser), web views &

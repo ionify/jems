@@ -31,11 +31,11 @@ During **jem** evaluation, its `+`, `-`, or `~` unary operator
 
 + **jems** are JSON
 + JSON are object & array literals
-+ & object & array literals' prototypes are `Object.prototype` & `Array.prototype`.
++ and object & array literals' prototypes are `Object.prototype` & `Array.prototype`.
 
 By default, both `Object.prototype.valueOf()` & `Array.prototype.valueOf()` are defined, so each **jem's** `+`, `-`, or `~` unary operator calls it to obtain a [primitive value](https://en.m.wikipedia.org/wiki/Primitive_value) that's then converted to a number.
 
-Defining custom `Object.prototype.valueOf()` & `Array.prototype.valueOf()` methods enables using JavaScript's [implicit type conversion](https://en.m.wikipedia.org/wiki/Type_conversion) behavior to observe & interface with all **jems** without needing an identifier, magical 🤓
+Defining custom `Object.prototype.valueOf()` & `Array.prototype.valueOf()` methods enables using JavaScript's [implicit type conversion](https://en.m.wikipedia.org/wiki/Type_conversion) behavior to observe & interface with all **jems** without needing an identifier. Magical 🤓
 
 ```javascript
 ;
@@ -56,15 +56,22 @@ Object.prototype.valueOf
 ## work
 
 **jems** work everywhere JavaScript lives & can be used in all
-[web browsers](https://en.wikipedia.org/wiki/Web_browser), web views &
-[JavaScript runtimes](http://en.wikipedia.org/wiki/JavaScript_engine) implementing [any version](http://www.ecma-international.org/publications/standards/Ecma-262-arch.htm) of the
-[ECMAScript Specification](http://www.ecma-international.org/publications/standards/Ecma-262.htm) since [1999](http://www.ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-262,%203rd%20edition,%20December%201999.pdf).
+[web browsers](https://en.wikipedia.org/wiki/Web_browser),
+web views &
+[JavaScript runtimes](http://en.wikipedia.org/wiki/JavaScript_engine)
+implementing
+[any version](http://www.ecma-international.org/publications/standards/Ecma-262-arch.htm)
+of the
+[ECMAScript Specification](http://www.ecma-international.org/publications/standards/Ecma-262.htm)
+published since
+[1999](http://www.ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-262,%203rd%20edition,%20December%201999.pdf).
 
 **jems** can be used for
 
 + automatic & decoupled JSON observation
 + event-driven programming
-+ & as domain-specific languages to name a few
++ as domain-specific languages
++ and more.
 
 Their full potential is up to you 😉
 

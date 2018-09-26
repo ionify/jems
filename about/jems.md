@@ -1,6 +1,6 @@
 # jems
 
-**json–expressed modules**, are modules of data or functionality expressed as [JSON](http://json.org/) via [**implicit object notation**](https://github.com/ionify/ionify/blob/public/info/ion.md).
+**json–expressed modules**, are modules of data or functionality expressed as [JSON](http://json.org/) via [**invoked object notation**](https://github.com/ionify/about/blob/public/ions/ion.md).
 
 ## look
 
@@ -68,5 +68,5 @@ Object.prototype.valueOf
 
 Their full potential is up to you 😉
 
-To get started, try [**ionify**](http://code.ionify.net/), **implicit object notation interpreted for you**, an API that simplifies doing many of the things **jems** make possible.
+To get started, try [**ionify**](http://api.ionify.net/), **invoked object notation implemented for you**, an API that simplifies doing many of the things **jems** make possible.
 

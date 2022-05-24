@@ -8,8 +8,8 @@
 
 ####
 
-🙇🏾‍♂️ through * [**God**](LICENSE.txt) * impossible -is- nothing ||
+🙇🏾‍♂️ through * [**יהוה**](LICENSE.txt) * impossible -is- nothing ||
 [🇬🇾👨🏾‍💻🇺🇸](//en.wikipedia.org/wiki/Guyana)
 [**mike lee**](//github.com/iskitz) &
 [**team**](//github.com/orgs/ionify/people)
-🤎
+🤲🏾

@@ -4,11 +4,11 @@
 [**ionified**](//github.com/ionify/about/blob/public/ions/ion.md#ion)
 [json](//json.org).
 
-[learn more](./about/jems.md)
+[learn more](./about/jems.md#jems)
 
 ####
 
-🙇🏾‍♂️ through * [**יהוה**](LICENSE.txt) * impossible -is- nothing ||
+🙇🏾‍♂️ through * [**יהוה**](LICENSE.txt#L1) * impossible -is- nothing ||
 [🇬🇾👨🏾‍💻🇺🇸](//en.wikipedia.org/wiki/Guyana)
 [**mike lee**](//github.com/iskitz) &
 [**team**](//github.com/orgs/ionify/people)

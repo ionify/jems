@@ -11,5 +11,5 @@
 🙇🏾‍♂️ through * [**יהוה**](LICENSE.txt#L1) * impossible -is- nothing ||
 [🇬🇾👨🏾‍💻🇺🇸](//en.wikipedia.org/wiki/Guyana)
 [**mike lee**](//github.com/iskitz) &
-[**team**](//github.com/orgs/ionify/people)
+[**team**](https://team.ionify.net/)
 🤲🏾

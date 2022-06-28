@@ -6,7 +6,7 @@
 [**ion: invoked object notation**](//github.com/ionify/about/blob/public/ions/ion.md#ion):
 
 ```javascript
-~ {  "log" : "👋🏾👨🏾‍💻"   } <= /note interaction/
+~ {  "log" : "👋🏾👨🏾‍💻"   } <= /do transcription/
 + { "json" : "data"  } <= /json information/
 - ["natural language"] <= /text information/
 ```

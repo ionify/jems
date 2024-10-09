@@ -49,8 +49,10 @@ or
 during **jem** evaluation, its `+`, `-`, or `~` unary operator
 [attempts to convert its object or array operand to a number](//www.ecma-international.org/ecma-262/6.0/index.html#sec-toprimitive).
 during that conversion, an attempt is made to call the object or array's `valueOf()`
-method. since **jems** are json, and json have no methods, **jems** don't implement a
-`valueOf()` method. this causes javascript runtimes to traverse the **jem's**
+method.
+
+since **jems** are json, and json have no methods, **jems** don't implement a
+`valueOf()` method, which causes javascript runtimes to traverse the **jem's**
 [prototype inheritance path](//www.ecma-international.org/ecma-262/6.0/index.html#sec-objects)
 in search of one. that search begins & ends at `Object.prototype` & `Array.prototype`
 because:
@@ -69,7 +71,7 @@ that's then converted to a number.
 defining custom `Object.prototype.valueOf()` & `Array.prototype.valueOf()` methods enables
 observing & interacting with all **jems**, with & without their identifiers, by interfacing
 with javascript's `Object` & `Array`
-[implicit type conversion](//en.wikipedia.org/wiki/Type_conversion) 🙏🏾
+[implicit type conversion](//en.wikipedia.org/wiki/Type_conversion) 🤲🏾
 
 ```javascript
 ;

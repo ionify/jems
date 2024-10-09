@@ -1,12 +1,12 @@
 # jems
 
-**json–expressed modules**, are software-defined actions & information, expressed via
-[json](//json.org)
-&
+**json–expressed modules**, are software-defined actions & information, expressed as
+[observable](//github.com/ionify/about/blob/public/LINGO.md#-oj)
+[json](//json.org) via
 [**ion: invoked object notation**](//github.com/ionify/about/blob/public/ions/ion.md#ion):
 
 ```javascript
-~ {  "log" : "👋🏾👨🏾‍💻"   } <= /do transcription/
+~ {  "log" : "👋🏾👨🏾‍💻" } <= /do transcription/
 + { "json" : "data"  } <= /json information/
 - ["natural language"] <= /text information/
 ```
@@ -54,7 +54,9 @@ method.
 since **jems** are json, and json have no methods, **jems** don't implement a
 `valueOf()` method, which causes javascript runtimes to traverse the **jem's**
 [prototype inheritance path](//www.ecma-international.org/ecma-262/6.0/index.html#sec-objects)
-in search of one. that search begins & ends at `Object.prototype` & `Array.prototype`
+in search of one.
+
+that search begins & ends at `Object.prototype` & `Array.prototype`
 because:
 
 + **jems** are json,
@@ -103,7 +105,7 @@ published since
 
 to get started, try
 [**ionify: invoked object notation implemented for you**](//api.ionify.net/),
-a flexible, unobtrusive & novel api that simplifies defining, observing & interacting with
+a flexible, unobtrusive & natural api that simplifies defining, observing & interacting with
 **jems** & other
 [**ions**](//github.com/ionify/about/blob/public/ions/ion.md#ion).
 

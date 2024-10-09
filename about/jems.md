@@ -1,12 +1,12 @@
 # jems
 
 **json–expressed modules**, are software-defined actions & information, expressed as
-[observable](//github.com/ionify/about/blob/public/LINGO.md#-oj)
-[json](//json.org) via
+[observable json](//github.com/ionify/about/blob/public/LINGO.md#-oj)
+via
 [**ion: invoked object notation**](//github.com/ionify/about/blob/public/ions/ion.md#ion):
 
 ```javascript
-~ {  "log" : "👋🏾👨🏾‍💻" } <= /do transcription/
+~ {  "log" : "👋🏾👨🏾‍💻"  } <= /do transcription/
 + { "json" : "data"  } <= /json information/
 - ["natural language"] <= /text information/
 ```
@@ -15,9 +15,9 @@
 
 **jems** can be used for
 
-+ automatic & decoupled json observation,
-+ event-driven programming,
-+ defining domain-specific languages,
++ automatic & decoupled [json](//json.org) observation,
++ [event-driven programming](//wikipedia.org/wiki/Event-driven_programming),
++ defining [domain-specific languages](//wikipedia.org/wiki/Domain-specific_language),
 + and more;
 
 their full potential is up to you 🤲🏾
@@ -67,13 +67,14 @@ because:
 javascript runtimes implement both `Object.prototype.valueOf()` &
 `Array.prototype.valueOf()`, so each **jem's** `+`, `-`, or `~` unary operator, calls the
 **jem’s** prototype-inherited, `Object` or `Array`, `valueOf()` method to obtain a
-[basic value](//en.wikipedia.org/wiki/Primitive_value)
+[basic value](//wikipedia.org/wiki/Primitive_value)
 that's then converted to a number.
 
 defining custom `Object.prototype.valueOf()` & `Array.prototype.valueOf()` methods enables
 observing & interacting with all **jems**, with & without their identifiers, by interfacing
 with javascript's `Object` & `Array`
-[implicit type conversion](//en.wikipedia.org/wiki/Type_conversion) 🤲🏾
+[implicit type conversion](//wikipedia.org/wiki/Type_conversion)
+✨
 
 ```javascript
 ;
@@ -93,9 +94,9 @@ Object.prototype.valueOf
 ## where
 
 **jems** work everywhere javascript exists & can be used in all
-[web browsers](//en.wikipedia.org/wiki/Web_browser),
+[web browsers](//wikipedia.org/wiki/Web_browser),
 web views &
-[javascript runtimes](//en.wikipedia.org/wiki/JavaScript_engine)
+[javascript runtimes](//wikipedia.org/wiki/JavaScript_engine)
 implementing
 [any version](//www.ecma-international.org/publications/standards/Ecma-262-arch.htm)
 of the
@@ -112,7 +113,7 @@ a flexible, unobtrusive & natural api that simplifies defining, observing & inte
 ####
 
 🙇🏾‍♂️ through * [**יהוה**](../LICENSE.txt#L1) * impossible -is- nothing ||
-[🇬🇾👨🏾‍💻🇺🇸](//en.wikipedia.org/wiki/Guyana)
+[🇬🇾👨🏾‍💻🇺🇸](//wikipedia.org/wiki/Guyana)
 [**mike lee**](https://github.com/iskitz) &
 [**team**](https://team.ionify.net/)
 🤲🏾
